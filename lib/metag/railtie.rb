@@ -3,7 +3,9 @@ require 'metag/tag'
 module Metag
   class Railtie < ::Rails::Railtie
     initializer 'meta-helper.initialize' do
-      ActionView::Base.send :include, MetaHelper::Tag
+      ActiveSupport.on_load(:action_view) do
+        ::ActionView::Base.send :include, Metag::Tag
+      end
     end
   end
 end

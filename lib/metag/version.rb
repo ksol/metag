@@ -1,3 +1,3 @@
-module Metag
-  VERSION = '0.5'
+module Metag #:nodoc:
+  VERSION = '1.0.0'
 end

@@ -1,6 +1,6 @@
 require 'metag/tag'
 
-module Metag
+module Metag #:nodoc:
   module Sugar
     def facebook_tag(*args)
       meta_tag :fb, *args

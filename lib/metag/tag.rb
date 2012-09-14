@@ -1,4 +1,4 @@
-module Metag
+module Metag #:nodoc:
   module Tag
     def meta_tag(*args)
       # Handle options

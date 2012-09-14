@@ -35,7 +35,7 @@ and `tw_tag`). They're just sugar for `meta_tag` with the first argument
 set as `fb`, `og`, and `twitter` respectively.
 
 ## Questions, Feedback
-Feel free to pint me on Twitter (@ksol).
+Feel free to ping me on Twitter (@ksol).
 
 ## Contributing
 I don't think there's a lot much to do on this, but hey. If you have any idea

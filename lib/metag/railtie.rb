@@ -1,6 +1,6 @@
-require 'meta_helper/tag'
+require 'metag/tag'
 
-module MetaHelper
+module Metag
   class Railtie < ::Rails::Railtie
     initializer 'meta-helper.initialize' do
       ActionView::Base.send :include, MetaHelper::Tag
